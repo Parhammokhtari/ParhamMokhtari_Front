@@ -1,0 +1,48 @@
+.boxLogin {
+  text-align: center;
+  background-image: linear-gradient(rgb(0, 89, 255), rgb(5, 8, 49));
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+}
+label {
+  font-weight: bold;
+}
+.fieldContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fieldContainer div {
+  margin: 5px;
+  margin-left: 0;
+  margin-right: 80px;
+}
+button {
+  margin: 5px;
+  margin-top: 40px;
+  width: 100px;
+  background-color: rgb(231, 233, 238);
+}
+button:hover {
+  color: #fff;
+  background-color: rgb(20, 33, 155);
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}

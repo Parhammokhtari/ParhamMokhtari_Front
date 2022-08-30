@@ -1,0 +1,117 @@
+.bg-gray {
+  background-color: rgba(210, 198, 198, 0.5);
+}
+.bg-gray:focus {
+  background-color: rgba(210, 198, 198, 0.5);
+  border: none !important;
+}
+.in1 {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid gray;
+  margin-top: 20px !important;
+  height: 50px;
+}
+.white {
+  color: white;
+}
+.text-area1 {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid gray;
+  height: 200px;
+  resize: none;
+}
+.btn1 {
+  height: 70px;
+}
+.box1 {
+  border-radius: 10px 10px 0 0;
+}
+
+.paddingLeft-10 {
+  padding-left: 10px;
+}
+
+.bg-bluelight {
+  background-color: rgb(114, 162, 235);
+}
+
+.showTask {
+  height: 400px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  scroll-behavior: auto;
+}
+.topShowTask {
+  height: 60px !important;
+  display: flex;
+  align-items: center;
+}
+/* .pDiv{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+} */
+
+.text-area2 {
+  border-radius: 5px 5px 0 0;
+  border-bottom: 2px solid gray;
+  height: 500px;
+  resize: none;
+}
+.slecetionBar {
+  width: 100% !important;
+  height: 60px !important;
+}
+
+.slecetionBarContainer {
+  width: 100% !important;
+  height: 200px !important;
+}
+.options:hover {
+  color: rgb(165, 39, 39);
+}
+
+.buttonContainar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.margin-0 {
+  margin: 0px !important;
+  margin-top: 5px !important;
+}
+.size-button {
+  max-width: 330px !important;
+}
+.border-gray {
+  border: solid gray 2px;
+  opacity: 0.8;
+}
+.card1 {
+  /* background-color: white; */
+  /* border-radius: 10px; */
+
+  padding-top: 10px !important;
+}
+.btContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+.popUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px !important;
+  background-color: blue;
+}
+.cards {
+  word-wrap: break-word;
+  background-color: white;
+  overflow: scroll;
+  height: 250px;
+}
