@@ -36,10 +36,10 @@ const EditHandler = async () => {
                    temp[index].description=description;
                    temp[index].status=status;
                    dispatch({type:"INIT",payload:temp});
-                    successMessage("Successfully added :D");
+                    successMessage("Successfully edit :D");
                 })
                 .catch(() => {
-                    errorMessage("Failing add D:");
+                    errorMessage("Failing edit D:");
                 });
             setTitle("");
             setStatus("");

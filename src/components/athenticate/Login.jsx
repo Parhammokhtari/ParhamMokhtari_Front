@@ -53,16 +53,7 @@ const validation = async (e) => {
         
     };
 
-//   useEffect(()=>{
-//   fetch(`/validation`, {
-//             method: 'GET',
-//         }).then(res => res.json()
-//         ).then(json => {
-//             setPerson(json['person']);
-//             console.log(JSON.stringify(person))
-//         }).catch(() => console.log("error"));
- 
-// },login)
+
   return( 
   <>
   <div className="boxLogin " style={{height: "100vh", margin: 0, padding:0 , width:"100%"}}>

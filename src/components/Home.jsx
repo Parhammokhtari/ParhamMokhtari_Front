@@ -54,17 +54,18 @@ const addHandler = async (e) => {
                   
                    navigate('/home');
                    dispatch(getAllTasks());
+                  //  alert("Successfully added :D");
                     successMessage("Successfully added :D");
-                      
+                    
                     
                 })
                 .catch(() => {
                     errorMessage("Failing add D:");
                 });
+            
             setTitle("");
             // setStatus("");
-            setDescription("");
-          
+                   setDescription("");
         
     };
 
@@ -84,7 +85,8 @@ const deleteEvent = async (t) => {
 useEffect(()=>{
  dispatch(getAllTasks());
 
-},[])
+},[]);
+
 
 
   return (
@@ -97,11 +99,13 @@ useEffect(()=>{
         <div className="w-50 d-inline-block text-left">
           <h3 className="mt-4">Add a new Task</h3>
           <input
+          value={title}
             type="text"
             className="form-control bg-gray in1"
             placeholder="Title" onChange={(e)=>{setTitle(e.target.value)}}
           />
           <textarea
+           value={description}
             placeholder="Description"
             className="w-100 text-area1 mt-2 bg-gray"
             onChange={(e)=>{setDescription(e.target.value)}}
